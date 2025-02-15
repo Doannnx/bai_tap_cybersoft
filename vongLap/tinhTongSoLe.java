@@ -22,7 +22,6 @@ public class tinhTongSoLe {
 		}else {
 			System.out.println("Vui lòng nhập lại");
 		}
-		
 		System.out.println("Tổng các số bé hơn " +num+" là: " +sum);
 
 	}
