@@ -24,15 +24,6 @@ public class tinhSoNamDoi {
 		laiSuat = Float.parseFloat(nhap.nextLine())/100;
 		
 		
-		/**do {
-			if (soTienGui < soTienMuon) {
-				soTienGui *= (1+ laiSuat);
-				namDoi++;
-			}else {
-				System.out.println("So nam it nhat can phai doi la" + namDoi);
-			}
-		} while (true);**/
-		
 		while (soTienGui<soTienMuon) {
 			soTienGui = soTienGui * (1 + laiSuat);
 			namDoi ++;
